@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodeSprint Solutions — Freelance Coding & Automation</title>
+  <meta name="description" content="Fast, reliable freelance coding—dashboards, automations, and data tools.">
+  <meta property="og:title" content="CodeSprint Solutions">
+  <meta property="og:description" content="Fast, reliable freelance coding—dashboards, automations, and data tools.">
+  <meta property="og:type" content="website">
+  <style>
+    :root{--max:980px;--pad:24px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;}
+    *{box-sizing:border-box}
+    body{margin:0;line-height:1.5}
+    header{padding:56px var(--pad);border-bottom:1px solid #eee}
+    .wrap{max-width:var(--max);margin:0 auto}
+    .brand{font-weight:800;font-size:28px;letter-spacing:.3px}
+    .tag{opacity:.8;margin-top:6px}
+    .cta{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+    a.btn{padding:12px 18px;border:1px solid #111;border-radius:8px;text-decoration:none}
+    a.btn.primary{background:#111;color:#fff}
+    section{padding:40px var(--pad);border-bottom:1px solid #eee}
+    h2{margin:0 0 12px 0}
+    ul{margin:0;padding-left:18px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    footer{padding:32px var(--pad);font-size:14px;color:#555}
+    .card{border:1px solid #eee;border-radius:10px;padding:16px}
+    code{background:#f7f7f7;padding:2px 6px;border-radius:6px}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "CodeSprint Solutions",
+    "description": "Freelance coding & automation: dashboards, scripts, and data tools.",
+    "email": "mailto:cristian_nunezz@icloud.com",
+    "url": "https://example.com",
+    "areaServed": "United States",
+    "sameAs": []
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">CodeSprint Solutions</div>
+      <div class="tag">Freelance Coding & Automation — fast turnarounds, clean deliverables.</div>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get a quote</a>
+        <a class="btn" href="#work">See services</a>
+        <!-- Replace the link below with your Stripe Checkout Link when ready -->
+        <a class="btn" href="https://buy.stripe.com/your-checkout-link" target="_blank" rel="noopener">Pay deposit</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>What I do</h2>
+      <p>I build practical, no‑nonsense software that saves time and makes your data useful. If you need an interactive dashboard, an automated report, a custom script, or help wrangling technical logs, I’ll ship it—clean, documented, and on deadline.</p>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Dashboards</h3>
+          <p>Interactive dashboards from CSV, Excel, or Google Sheets. Clear KPIs, filters, and exportable views.</p>
+        </div>
+        <div class="card">
+          <h3>Auto‑Reports</h3>
+          <p>Scheduled PDFs or emails with fresh metrics pulled from your sheets or databases—zero manual work.</p>
+        </div>
+        <div class="card">
+          <h3>Automation Scripts</h3>
+          <p>Python or Apps Script to glue tools together and eliminate repetitive tasks.</p>
+        </div>
+        <div class="card">
+          <h3>Data/Log Analysis</h3>
+          <p>Inspection logs, drone data, turbine metrics—cleaned, graphed, and explained.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <ol>
+        <li><b>Scope:</b> You share sample data and the outcome you want.</li>
+        <li><b>Quote:</b> I send a fixed price and timeframe (most small builds in 24–72h).</li>
+        <li><b>Build:</b> I ship v1 fast, iterate once, and deliver source code + docs.</li>
+      </ol>
+      <p><b>Tech:</b> Python, Pandas, Streamlit, Google Apps Script, CSV/Excel/Sheets.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:cristian_nunezz@icloud.com">cristian_nunezz@icloud.com</a></p>
+      <p>Ready to start? Email me your data sample or message “Quote:” with a short description. I’ll reply with next steps.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      © <span id="y"></span> CodeSprint Solutions — All rights reserved.
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
