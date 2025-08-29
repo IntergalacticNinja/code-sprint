@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CodeSprint — Freelance Coding, Fast.</title>
+  <meta name="description" content="Freelance coding services specializing in quick, reliable solutions — from dashboards and automation to custom scripts.">
+  <meta property="og:title" content="CodeSprint — Freelance Coding, Fast.">
+  <meta property="og:description" content="Dashboards, automations, and custom scripts delivered fast.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">🚀 CodeSprint</div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#contact" class="btn sm">Hire Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Freelance coding, done <span class="accent">right</span> and <span class="accent">fast</span>.</h1>
+          <p>Dashboards, automations, data scripts, and lightweight apps. Zero fluff. Clear pricing. On-time delivery.</p>
+          <div class="cta-row">
+            <a class="btn" href="#contact">Get a quote</a>
+            <a class="btn ghost" href="mailto:cristian_nunezz@icloud.com">Email me</a>
+          </div>
+          <ul class="badges">
+            <li>✔ 24–72 hr turnarounds</li>
+            <li>✔ Fixed-price packages</li>
+            <li>✔ NDA-friendly</li>
+          </ul>
+        </div>
+        <div class="hero-card">
+          <div class="card">
+            <h3>Popular Packages</h3>
+            <ul class="list">
+              <li><strong>CSV ➜ Dashboard</strong> — Interactive web dashboard from your data.</li>
+              <li><strong>Auto-Report Bot</strong> — Google Sheets ➜ PDF/email automation.</li>
+              <li><strong>Log Analyzer</strong> — Parse drone/inspection logs and surface insights.</li>
+            </ul>
+            <a class="btn block" href="#contact">Start a project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container grid-3">
+        <div class="service">
+          <h3>Dashboards</h3>
+          <p>Streamlit/Flask dashboards that turn CSVs into decisions.</p>
+        </div>
+        <div class="service">
+          <h3>Automation</h3>
+          <p>Google Apps Script + Python to eliminate your repetitive work.</p>
+        </div>
+        <div class="service">
+          <h3>Custom Scripts</h3>
+          <p>APIs, data cleaning, webhooks, and one-off utilities—built clean and documented.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section tinted">
+      <div class="container steps">
+        <h2>Simple process</h2>
+        <ol>
+          <li><strong>Scope:</strong> You send a brief + sample data.</li>
+          <li><strong>Quote:</strong> Fixed price + delivery window.</li>
+          <li><strong>Build:</strong> Daily updates, clear milestones.</li>
+          <li><strong>Deliver:</strong> Handover + docs + support.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2>Ready to move fast?</h2>
+        <p>Send a short brief or sample data. I’ll reply with scope, price, and a delivery window.</p>
+        <div class="cta-row">
+          <!-- Replace the # with your Stripe Checkout link when ready -->
+          <a class="btn" href="#">Pay deposit</a>
+          <a class="btn ghost" href="mailto:cristian_nunezz@icloud.com?subject=Project%20Inquiry%20—%20CodeSprint">cristian_nunezz@icloud.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <span>© <span id="year"></span> CodeSprint</span>
+      <span>Built with ♥︎ and clean code.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
